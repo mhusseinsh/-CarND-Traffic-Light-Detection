@@ -63,7 +63,7 @@ A sample of the output is shown below
 
 |                | Real Data                             | Sim Data                               | 
 | -------------- | --------------------------------------- | ------------------------------------------- |
-| Red Light | <img src="./output_images/left0140_output.jpg" width="400" height="200"> | <img src="./output_images/left0003_output.jpg" width="400" height="200"> |
+| Red Light | <img src="./output_images/left0140_output.jpg" width="400" height="200"> | <img src="./output_images/left0027_output.jpg" width="400" height="200"> |
 | Yellow Light | <img src="./output_images/left0701_output.jpg" width="400" height="200"> | <img src="./output_images/left0011_output.jpg" width="400" height="200"> |
-| Green Light | <img src="./output_images/left0282_output.jpg" width="400" height="200"> | <img src="./output_images/left0027_output.jpg" width="400" height="200"> |
+| Green Light | <img src="./output_images/left0282_output.jpg" width="400" height="200"> | <img src="./output_images/left0003_output.jpg" width="400" height="200"> |
 
