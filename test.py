@@ -73,11 +73,6 @@ test_images = os.listdir(test_images_path)
 for testImage in test_images:
     image = cv2.imread(os.path.join(test_images_path, testImage))
     image = np.dstack((image[:, :, 2], image[:, :, 1], image[:, :, 0]))
-    if site:
-        width = image.shape[1]
-        height = image.shape[0]
-        #rospy.loginfo("Width: %r, height: %r" % (width, height))
-        #image = image[:int(height/2), :, :]
     image_np = np.expand_dims(np.asarray(image, dtype=np.uint8), 0)
 
     with tf.Session(graph=graph) as sess:                
